@@ -1,0 +1,3 @@
+rootProject.name = "ExoPlayer_TechTest"
+include ':app'
+include ':techtest_framework'
