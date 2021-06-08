@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         player.prepare();
         //we are setting our exoplayer when it is ready.
         player.setPlayWhenReady(true);
-        statsManager = new exoPlayerStatsManager(player, getApplicationContext());
+        statsManager = new exoPlayerStatsManager(player, MainActivity.this);
     }
 
     private HlsMediaSource buildMediaSource(Uri uri) {
